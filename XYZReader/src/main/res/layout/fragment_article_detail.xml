@@ -42,7 +42,8 @@
         android:layout_height="match_parent"
         android:clipToPadding="false"
         android:layout_gravity="fill_vertical"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:behavior_overlapTop="64dp">
         <com.example.xyzreader.ui.MaxWidthLinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
